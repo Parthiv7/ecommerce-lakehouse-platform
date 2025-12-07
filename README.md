@@ -15,6 +15,13 @@ The core focus was building a fault-tolerant Gold layer capable of powering crit
 
 - BI Layer: Databricks SQL (Parameterized Dashboards)
 
+## Data Source
+The raw data for this project is sourced from the **E-commerce Transactions + Clickstream** dataset on Kaggle.
+
+**Link:** [E-commerce Transactions + Clickstream Dataset](https://www.kaggle.com/datasets/wafaaelhusseini/e-commerce-transactions-clickstream)
+
+**License:** Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+
 ## Pipeline Architecture (Medallion Layers)
 The repository is organized numerically to reflect the mandatory execution order of the data pipeline:
 
