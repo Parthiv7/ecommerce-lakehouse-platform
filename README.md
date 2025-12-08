@@ -72,13 +72,13 @@ The project is organized using a clean, professional file structure to align wit
 ```text
 ecommerce-lakehouse-platform/
 ├── 01_bronze/
-│   └── 01_bronze_ingestion.py      # Notebook to ingest raw files (Your Bronze Code)
+│   └── 01_bronze_ingest.py      # Notebook to ingest raw files (Your Bronze Code)
 ├── 02_silver/
-│   └── 02_silver_transformation.py # Notebook for cleaning, dedupe, and ID normalization
+│   └── 02_silver_transform.py # Notebook for cleaning, dedupe, and ID normalization
 ├── 03_gold/
-│   └── 03_gold_aggregation.py      # Notebook to build all Gold tables (Metrics, Funnel, C360)
+│   └── 03_gold_aggregate.py      # Notebook to build all Gold tables (Metrics, Funnel, C360)
 ├── 04_data_quality/
-│   └── 04_dq_validation.py         # Notebook containing all PASS/FAIL validation checks
+│   └── 04_data_quality_checks.py         # Notebook containing all PASS/FAIL validation checks
 ├── analysis/
 │   ├── dashboard_queries.sql       # All 4 parameterized SQL definitions
 │   └── dashboards/
@@ -90,6 +90,6 @@ ecommerce-lakehouse-platform/
 │   ├── raw_data_files/             # sample CSV/XLSX source files
 │   └── architecture_diagram.png    # conceptual diagram here
 ├── .gitignore                      # Python/Databricks ignore list
-├── LICENSE                         # Apache 2.0 or MIT License file
+├── LICENSE                         # Apache 2.0 
 └── README.md                       # Project summary, architecture, and setup guide
 
